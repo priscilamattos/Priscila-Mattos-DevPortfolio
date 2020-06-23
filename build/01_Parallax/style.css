@@ -32,7 +32,7 @@ ul, li{
 }
 
 :root {
-    --main-color: #fd7878; /* Here is main color */
+    --main-color: #d54b9d; /* Here is main color */
 }
 
 /* HEADINGS */
@@ -913,7 +913,7 @@ h6{
 /* counter__content */
 .counter__content{
     width: 100%;
-    background-image: url(images/bg/Site_Background.png');
+    background-image: url('./images/bg/Site_Background.png');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -1145,7 +1145,7 @@ h6{
 /* Feedback */
 .feedback_content{
     width: 100%;
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url('./images/bg/Site_Background.png');
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -1396,7 +1396,8 @@ h6{
 .footer{
     width: 100%;
     padding: 50px 0;
-    background-color: #2C3742;
+    background-color: #000000;
+    opacity: 75%;
     text-align: center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
