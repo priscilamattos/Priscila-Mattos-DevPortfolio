@@ -1147,10 +1147,12 @@ h6{
     opacity: 0;
     transition: all .8s;
     overflow: hidden;
+    border: none;
 }
 .item_title button:hover,
 .item_title a:hover{
     background: #2C3742;
+    border: none;
 }
 
 .item_title i{
