@@ -482,6 +482,18 @@ h6{
     background-position: center;
 }
 
+@media only screen and (max-width: 959px) {
+    header:before {
+    content: "";
+    background-image: url('./images/bg/Site_Background.png');
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    background-position: center;
+    height: 100vh;
+    }
+    }
+
 .header__content{
     height: 100%;
     width: 100%;
