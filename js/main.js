@@ -220,43 +220,7 @@ $(document).ready(function(){
 // AJAX FORM
 $(document).ready(function() {
 
-    $("#btn_submit").on("click", function(){
-        var Email = $("#email").val().trim();
-        var Name = $("#name").val().trim();
-        var text_comment = $("#text_comment").val().trim();
-        
-        if(Name == ""){
-            $("#winError").css("display", "inline-block");
-            $("#winError").text("Enter your name");
-            $("#name").focus();
-            return false;
-        }else if(Email == ""){
-            $("#winError").css("display", "inline-block");
-            $("#winError").text("Enter your email");
-            $("#email").focus();
-            return false;
-        }else if(text_comment == ""){
-            $("#winError").css("display", "inline-block");
-            $("#winError").text("Enter your message");
-            $("#text_comment").focus();
-            return false;
-        }
 
-        $("#winError").css("display", "none");
-        $("#winError").text("");
-    });
-
-	//E-mail Ajax Send
-    $("form").submit(function() { //Change
-        var th = $(this);
-        
-        $("#MessageSent").fadeIn(500);
-        setTimeout(function() {
-            // Done Functions
-            th.trigger("reset");
-        }, 1000);
-        return false
-	});
 
 });
 // AJAX FORM END
