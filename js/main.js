@@ -247,26 +247,15 @@ $(document).ready(function() {
     });
 
 	//E-mail Ajax Send
-	$("form").submit(function() { //Change
+    $("form").submit(function() { //Change
         var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "sendMail.php", //Change
-            data: th.serialize(),
-            beforeSend: function(){
-                $("#btn_submit").prop("disabled", true);
-            },
-            success: function(){
-                $("#btn_submit").prop("disabled", false);
-            }
-		}).done(function() {
-			$("#MessageSent").fadeIn(500);
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
+        
+        $("#MessageSent").fadeIn(500);
+        setTimeout(function() {
+            // Done Functions
+            th.trigger("reset");
+        }, 1000);
+        return false
 	});
 
 });
