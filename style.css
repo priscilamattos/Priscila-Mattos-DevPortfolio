@@ -1346,7 +1346,8 @@ h6{
 
 .contact-form form textarea{
     width: 100%;
-    min-height: 200px;
+    min-height: 50px;
+    max-height: 100px;
     resize: vertical;
     background: transparent;
     border: none;
