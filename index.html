@@ -481,17 +481,13 @@
                         </div>
                     </div>
                     <div class="contact-form">
-                        <form name="MyForm">
-                            <!-- Hidden Required Fields -->
-                            <input type="hidden" name="project_name" value="Priscila Mattos"> <!--Here is your site name-->
-                            <input type="hidden" name="admin_email" value="priscilamattosux@gmail.com"> <!--Here is your email-->
-                            <input type="hidden" name="form_subject" value="Form">
-                            <!-- /Hidden Required Fields -->
+
+                        <form name="contact" method="POST" data-netlify="true">
                             <div class="form-name">
-                                <input type="text" id="name" name="Name" placeholder="Enter your name">
+                                <input type="text" id="name" name="Name" placeholder="Enter your name" autocomplete="name">
                             </div>
                             <div class="form-email">
-                                <input type="email" id="email" name="Email" placeholder="Enter your email">
+                                <input type="email" id="email" name="Email" placeholder="Enter your email" autocomplete="email">
                             </div>
                             <div class="form-textarea">
                                 <textarea name="text_comment" id="text_comment" placeholder="How can I help you?"></textarea>
@@ -499,8 +495,7 @@
                             <div class="btn__send">
                                 <button type="submit" id="btn_submit" name="done"><span>Send</span></button>
                             </div>
-                        </form>
-                        <div id="winError"></div>
+                          </form>
                     </div>
                 </div>
             </div>
