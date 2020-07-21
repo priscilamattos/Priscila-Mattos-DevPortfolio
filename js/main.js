@@ -37,12 +37,6 @@ $('.open-pdf-popup').magnificPopup({
     midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
   });
 
-function openPortifolio() {
-
-    $('#pdf').show()
-    
-}
-
 $('#pdf').magnificPopup({
     items: {
         src: '#portifolio-2',
@@ -51,16 +45,16 @@ $('#pdf').magnificPopup({
   });
 // SCROLL TO LINK
 
-$(document).ready(function(){
-    $('a[href*="#"]').on("click", function(e){
-    var anchor = $(this);
-    $('html, body').stop().animate({
-    scrollTop: $(anchor.attr('href')).offset().top
-    }, 1000);
-    e.preventDefault();
-    return false;
-    });
-});
+// $(document).ready(function(){
+//     $('a[tipo="imagem"]').on("click", function(e){
+//     var anchor = $(this);
+//     $('html, body').stop().animate({
+//     scrollTop: $(anchor.attr('href')).offset().top
+//     }, 1000);
+//     e.preventDefault();
+//     return false;
+//     });
+// });
 
 
 // ANIMATION SKILLS
@@ -174,7 +168,7 @@ $(document).ready(function(){
 });
 
 // GALLERY POPUP
-$(".works__inner").magnificPopup({
+$(".open_galery").magnificPopup({
     delegate: 'a',
     type: 'image',
     gallery:{
