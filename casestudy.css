@@ -1,0 +1,126 @@
+h2 {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 20px;
+    color: #f8971d;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+p {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+li {
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 19.2px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.disclaimer {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50p;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.priscila {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.link {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50p;
+}
+
+.empathy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.plan {
+    display: flex;
+}
+
+.quotes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.hmw {
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.insights {
+    display: flex;
+    margin-right: 50px;
+    
+    }
+
+.content {
+    margin-right: 370px;
+}
+
+.journey {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    font-size: 16px;
+    font-family: 'Montserrat' , sans-serif;
+    margin-left: 600px;
+
+}
+
+.ideate {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.flow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
