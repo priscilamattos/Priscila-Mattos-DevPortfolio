@@ -1,183 +1,179 @@
 h2 {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 20px;
-    color: #f8971d;
-    font-weight: bold;
-    margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f8971d;
+  font-weight: bold;
+  margin-left: 50px;
 }
 
 h3 {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 18px;
-    color: #f8971d;
-    font-weight: 400;
-    margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #f8971d;
+  font-weight: 400;
+  margin-left: 50px;
 }
 
 p {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 16px;
-    color: #000000;
-    margin-left: 50px;
-    margin-right: 50px;
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 li {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 16px;
-    color: #000000;
-    line-height: 19.2px;
-    margin-left: 50px;
-    margin-right: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 19.2px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 .disclaimer {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50p;
-    margin-left: 100px;
-    margin-right: 100px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50p;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .priscila {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .cover {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .link {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50p;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50p;
 }
 
 .design {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .empathy {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 160px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 160px;
 }
 
 .plan {
-    display: flex;
-    width: 406px;
-    height: 891px;
-    float: right;
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-left: 100px;
+  display: flex;
+  width: 406px;
+  height: 891px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .quotes {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1200px;
-    height: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1200px;
+  height: 450px;
 }
 
 .hmw {
-    font-style: italic;
-    font-size: 16px;
-    font-family: 'Montserrat' , sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .insights {
-    width: 403px; 
-    height: 545.5px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    margin-left: 80px;
-    margin-top: 50px;
-    float: right;
-    
-    }
-
-.content {
-    float: left;
-    margin-right: 150px;
+  width: 403px;
+  height: 545.5px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+  margin-top: 50px;
+  float: right;
 }
 
+.content {
+  float: left;
+  margin-right: 150px;
+}
 
 .journey {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 1300px;
-    height: 850px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1300px;
+  height: 850px;
 }
 
 a {
-    font-size: 16px;
-    font-family: 'Montserrat' , sans-serif;
-    margin-left: 600px;
-
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 600px;
 }
 
 .ideate {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .flow {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .colors {
-    margin-left: 100px;
-    margin-top: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
 .typography {
-    margin-left: 50px;
-    margin-top: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
 }
 
 .assets {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .wireframe {
-    width: 450px;
-    height: 791;
-    margin-top: 50px;
+  width: 450px;
+  height: 791;
+  margin-top: 50px;
 }

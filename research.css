@@ -1,154 +1,152 @@
 h2 {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 20px;
-    color: #f8971d;
-    font-weight: bold;
-    margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f8971d;
+  font-weight: bold;
+  margin-left: 50px;
 }
 
 p {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 16px;
-    color: #000000;
-    margin-left: 50px;
-    margin-right: 50px;
-
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 li {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 16px;
-    color: #000000;
-    line-height: 19.2px;
-    margin-left: 50px;
-    margin-right: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 19.2px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .questions {
-    font-family: 'Montserrat' , sans-serif;
-    font-size: 16px;
-    color: #000000;
-    line-height: 19.2px;
-    margin-left: 50px;
-    line-height: 5px ;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 19.2px;
+  margin-left: 50px;
+  line-height: 5px;
 }
 
 .disclaimer {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50p;
-    margin-left: 100px;
-    margin-right: 100px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50p;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .priscila {
-    text-align: center;
-    margin-bottom: 100px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .participants {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
-  
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .empathy {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .quotes {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .artboard {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .sitemap {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .foodmenu {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .accessibility {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .introduction {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .objectives {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .methodology {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .key {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .insights {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .map {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .usability {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
 }
 
 .issue1 {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .conclusion {
-    border-bottom: #ed1c24 5px solid;
-    margin-right: 50px;
-    margin-top: 50px;
+  border-bottom: #ed1c24 5px solid;
+  margin-right: 50px;
+  margin-top: 50px;
 }
