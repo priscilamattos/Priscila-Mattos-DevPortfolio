@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.season {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.season ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.season li {
+  float: right;
+}
+
+.season li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1d2023;
+  padding: 18px;
+}
+
+.season .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.menu li {
+  float: right;
+  list-style-type: none;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 18px;
+}
+
+.a {
+}
+
+.menu {
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 40px;
+  background: #35caeb;
+}
+
+.season h3 {
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+  color: #333333;
+  margin-left: 60px;
+}
+
+.header {
+  background-image: url(./Images/snowresort.jpg);
+  width: 100%;
+  height: 502px;
+  padding-top: 100px;
+  background-position: center;
+  background-size: cover;
+  background-filter: rgba(0, 0, 0, 0.25);
+}
+
+.header h1 {
+  font-family: "Alice", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  text-decoration: rgba(0, 0, 0, 0.19);
+  line-height: 82px;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-shadow: text-shadow: 1px 1px 3px rgb(12 12 12);
+}
+
+.header h2 {
+  font-family: "Nunito", sans-serif;
+  padding-left: 60px;
+  width: 540px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgb(12 12 12);
+}
+
+.emailInput {
+  width: 350px;
+  height: 30px;
+  margin-left: 60px;
+  border: slategrey;
+}
+.emailSubmit {
+  background: #35caeb;
+  color: #ffffff;
+  width: 120px;
+  height: 30px;
+  border: none;
+}
+
+textarea {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  width: 150px;
+  height: 100px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: 1px 1px 2px #333333;
+  -moz-box-shadow: 1px 1px 2px #333333;
+  -webkit-box-shadow: 1px 1px 2px #333333;
+}
+
+.services h1 {
+  font-family: "Alice", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 72px;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  color: #35caeb;
+}
+
+.services p {
+  font-family: "Nunito", sans-serif;
+  padding-left: 60px;
+  width: 700px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+  color: #1d2023;
+}
+
+.lessons h2 {
+  font-family: "Nunito", sans-serif;
+  padding-left: 60px;
+  width: 800px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+  color: #35caeb;
+}
+
+.lessons p {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  color: #1d2023;
+  padding-left: 120px;
+}
+.lift h2 {
+  font-family: "Nunito", sans-serif;
+  padding-left: 60px;
+  width: 800px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+  color: #35caeb;
+  margin-top: 30px;
+}
+
+.familyPhoto {
+  width: 600px;
+  height: 380px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.packages {
+  background-color: #35caeb;
+  width: 100%;
+  height: 782px;
+}
+
+.packages h1 {
+  font-family: "Alice", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 82px;
+  padding-left: 60px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.prices {
+  width: 380px;
+  height: 455px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.priceTitle {
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  margin-top: 45px;
+  color: #4b4e50;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.prices li {
+  margin-top: 15px;
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #1d2023;
+  margin-left: 40px;
+  margin-bottom: 15px;
+}
+
+.total {
+  font-size: 30px;
+  color: #35caeb;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 5px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #35caeb;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  width: 130px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.policy {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Nunito", sans-serif;
+  padding-top: 30px;
+}
+
+.contact {
+  width: 100%;
+  font-family: "Alice", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 82px;
+  text-align: center;
+  margin-top: 60px;
+  color: #35caeb;
+}
+
+.contactForm input {
+  width: 480px;
+  height: 67px;
+  border: none;
+  background: #eff4f9;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.contactComent {
+  width: 480px;
+  height: 200px;
+  border: none;
+  background: #eff4f9;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+.sendMessage {
+  padding: 5px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #35caeb;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  width: 480px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+
+.label {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  margin-left: 60px;
+  color: #1d2023;
+  margin-bottom: 5px;
+}
+
+.divContact {
+  width: 50%;
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+hr {
+  border: 1px solid #dbd9d9;
+  width: 700px;
+}
+
+.information {
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+}
+
+.information h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  color: #35caeb;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.information p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #1d2023;
+  line-height: 22px;
+}
+
+.socialMedia {
+  width: 640px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin: auto;
+}
+
+.socialMedia h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  color: #35caeb;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #35caeb;
+}
+
+.footer p {
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  padding: 20px 25px;
+  text-align: center;
+}
+
+.ticketList {
+  width: 540px;
+  margin-left: 120px;
+  column-width: 100px;
+  text-align: center;
+  background-color: rgb(245, 241, 237);
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+
+.ticketList th {
+  font-weight: bold;
+}
