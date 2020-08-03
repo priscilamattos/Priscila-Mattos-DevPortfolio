@@ -147,26 +147,30 @@ textarea {
   font-weight: normal;
   font-size: 64px;
   line-height: 72px;
-  padding-left: 60px;
+  margin-left: 60px;
   margin-bottom: 30px;
+  margin-right: 10px;
+  width: 650px;
   color: #35caeb;
 }
 
 .services p {
   font-family: "Nunito", sans-serif;
-  padding-left: 60px;
-  width: 700px;
+  margin-left: 60px;
+  width: 650px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
   line-height: 33px;
+  margin-right: 10px;
   color: #1d2023;
 }
 
 .lessons h2 {
   font-family: "Nunito", sans-serif;
-  padding-left: 60px;
-  width: 800px;
+  margin-left: 60px;
+  margin-right: 10px;
+  width: 650px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
@@ -178,11 +182,13 @@ textarea {
   font-family: "Nunito", sans-serif;
   font-size: 24px;
   color: #1d2023;
-  padding-left: 120px;
+  margin-left: 120px;
+  margin-right: 10px;
+  width: 650px;
 }
 .lift h2 {
   font-family: "Nunito", sans-serif;
-  padding-left: 60px;
+  margin-left: 60px;
   width: 800px;
   font-size: 24px;
   font-style: normal;
@@ -193,10 +199,9 @@ textarea {
 }
 
 .familyPhoto {
-  width: 600px;
-  height: 380px;
+  width: 561px;
+  height: 758px;
   float: right;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .packages {
@@ -216,6 +221,7 @@ textarea {
   color: #ffffff;
   text-align: center;
   padding-top: 60px;
+  width: auto;
 }
 
 .boxes {
@@ -294,7 +300,6 @@ textarea {
 }
 
 .contact {
-  width: 100%;
   font-family: "Alice", serif;
   font-style: normal;
   font-weight: bold;
@@ -303,6 +308,7 @@ textarea {
   text-align: center;
   margin-top: 60px;
   color: #35caeb;
+  width: auto;
 }
 
 .contactForm input {
@@ -414,6 +420,7 @@ hr {
   color: #ffffff;
   padding: 20px 25px;
   text-align: center;
+  margin: auto;
 }
 
 .ticketList {
