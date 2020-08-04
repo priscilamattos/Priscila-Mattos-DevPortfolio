@@ -12,6 +12,13 @@ body {
   height: 40px;
 }
 
+.menu img {
+  display: inline-block;
+  position: absolute;
+  width: 140px;
+  margin-left: 60px;
+}
+
 .season ul {
   list-style-type: none;
   margin: 0;
@@ -47,7 +54,7 @@ body {
 }
 
 .menu li a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   text-align: center;
   font-family: "Nunito", sans-serif;
@@ -299,7 +306,7 @@ textarea {
   padding-top: 30px;
 }
 
-.contact {
+.contact h1 {
   font-family: "Alice", serif;
   font-style: normal;
   font-weight: bold;
@@ -308,7 +315,7 @@ textarea {
   text-align: center;
   margin-top: 60px;
   color: #35caeb;
-  width: auto;
+  width: 100%;
 }
 
 .contactForm input {
