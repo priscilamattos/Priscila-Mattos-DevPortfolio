@@ -5,107 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <script>document.documentElement.classList.add("js"); </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
     <title>Snow School - Priscila Mattos - UX | UI Designer in Halifax</title>
-    <meta name="description" content="UX & UI Designer in Halifax">
+    <meta name="description" content="UX & UI Designer in Halifax" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Priscila Mattos - Designer" />
-    <meta property="og:description" content="UX & UI Designer in Halifax"/>
-    <meta property="og:url" content="http://www.priscila.attos.com"/>
-    
-    <meta name="viewport" conbtent="width=device-width, initial-scale=1">
+    <meta property="og:description" content="UX & UI Designer in Halifax" />
+    <meta property="og:url" content="http://www.priscila.attos.com" />
+
+    <meta name="viewport" conbtent="width=device-width, initial-scale=1" />
   </head>
   <body>
-   
     <header>
-    <div class="season">
-      <h3>2020-2021 SEASON PASS ON SALE NOW</h3>
-            <ul>
-        <li><a href="#" id="hours">Hours</a></li>
-        <li><a href="#" id="wheather">Wheather</a></li>
-        <li><a href="#" id="webcam">Webcam</a></li>
-      </ul>
-    </div>
-    <div class="menu">
-        <img src="./Images/logodesktop.png" style="width: 100px", "height: 60px"; >
-      <ul>
-        <li><a href="#" id="mountain">Mountain</a></li>
-        <li><a href="#" id="pricing">Pricing</a></li>
-        <li><a href="#" id="snow">Snow School</a></li>
-        <li><a href="#" id="safety">Safety</a></li>
-        <li><a href="#" id="contact">Contact</a></li>
-      </ul>
-    </div>
-    <div class="header">
-      <h1 data-anime="600" class="fadeInDown">Snow School</h1>
-      <h2 data-anime="1000" class="fadeInDown">
-        Celebrate the winter season with your family while skiing, snowboarding,
-        tubing, and snowshoeing.
-      </h2>
-      <div>
-        <input class="emailInput" type="email" id="email" name="email" />
-        <input class="emailSubmit" type="submit" id="submit" />
+      <div class="season">
+        <h3>2020-2021 SEASON PASS ON SALE NOW</h3>
+        <ul>
+          <li><a href="#" id="hours">Hours</a></li>
+          <li><a href="#" id="wheather">Wheather</a></li>
+          <li><a href="#" id="webcam">Webcam</a></li>
+        </ul>
       </div>
-    </div>
-  </header>
-    <br />
-    <br />
-    <br />
-    
-      <div class="familyPhoto">
-        <img src="./Images/Group 3.png" class="familyPhoto" />
+      <div class="menu">
+        <img src="./Images/logodesktop.png" width="140px" , height="60px" ; />
+        <ul>
+          <li><a href="#" id="mountain">Mountain</a></li>
+          <li><a href="#" id="pricing">Pricing</a></li>
+          <li><a href="#" id="snow">Snow School</a></li>
+          <li><a href="#" id="safety">Safety</a></li>
+          <li><a href="#" id="contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="services">
-    <h1>Ski and Snowboard lessons</h1>
-    <p class="services">
-      Embrace winter with us! Our Snow School is ready to help you discover your
-      passion and potential on the slopes this winter. Our innovative programs
-      will meet your every need, from the very beginner to the seasoned advance.
-    </p>
 
-    <div id="lessons" class="lessons">
-      <h2>Ski and Snowboard Lessons and Programs</h2>
-      <p>
-        <img src="./Images/snowicon.png" style="width: 20px; height: 20px;" />
-        Daily private and group lessons
-      </p>
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <img src="./Images/logodesktop.png" width="140px" , height="60px" ; />
+        <div id="myLinks">
+          <a href="#" id="mountain">Mountain</a>
+          <a href="#" id="pricing">Pricing</a>
+          <a href="#" id="snow">Snow School</a>
+          <a href="#" id="safety">Safety</a>
+          <a href="#" id="contact">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <!-- /Top Navigation Menu -->
 
-      <p>
-        <img src="./Images/snowicon.png" style="width: 20px; height: 20px;" />
-        Night lessons programs
-      </p>
-
-      <p>
-        <img src="./Images/snowicon.png" style="width: 20px; height: 20px;" />
-        Kids Skiing / Snowboarding packages
-      </p>
-    </div>
+      <div class="header">
+        <h1 data-anime="600" class="fadeInDown">Snow School</h1>
+        <h2 data-anime="1000" class="fadeInDown">
+          Celebrate the winter season with your family while skiing,
+          snowboarding, tubing, and snowshoeing.
+        </h2>
+        <div>
+          <input class="emailInput" type="email" id="email" name="email" />
+          <input class="emailSubmit" type="submit" id="submit" />
+        </div>
+      </div>
+    </header>
     <br />
-    <div class="lift">
-      <h2>Lift Tickets</h2>
-      <table class="ticketList">
-        <tr>
-          <th>Ticket</th>
-          <th>Adult (+16)</th>
-          <th>Junior (15 & under)</th>
-        </tr>
-        <tr>
-          <td>Full Day</td>
-          <td>$40</td>
-          <td>$30</td>
-        </tr>
-        <tr>
-          <td>Night (4PM-9PM)</td>
-          <td>$25</td>
-          <td>$20</td>
-        </tr>
-        <tr>
-          <td>Combo (Lift + Rental)</td>
-          <td>$65</td>
-          <td>$45</td>
-        </tr>
-      </table>
+    <br />
+    <br />
+
+    <div class="familyPhoto">
+      <img src="./Images/Group 3.png" class="familyPhoto" />
+    </div>
+    <div class="services">
+      <h1>Ski and Snowboard lessons</h1>
+      <p class="services">
+        Embrace winter with us! Our Snow School is ready to help you discover
+        your passion and potential on the slopes this winter. Our innovative
+        programs will meet your every need, from the very beginner to the
+        seasoned advance.
+      </p>
+
+      <div class="lessons">
+        <h2>Ski and Snowboard Lessons and Programs</h2>
+        <p>
+          <img src="./Images/snowicon.png" style="width: 20px; height: 20px;" />
+          Daily private and group lessons
+        </p>
+
+        <p>
+          <img src="./Images/snowicon.png" style="width: 20px; height: 20px;" />
+          Night lessons programs
+        </p>
+
+        <p>
+          <img src="./Images/snowicon.png" style="width: 20px; height: 20px;" />
+          Kids Skiing / Snowboarding packages
+        </p>
+      </div>
+      <br />
+      <div class="lift">
+        <h2>Lift Tickets</h2>
+        <table class="ticketList">
+          <tr>
+            <th>Ticket</th>
+            <th>Adult (+16)</th>
+            <th>Junior (15 & under)</th>
+          </tr>
+          <tr>
+            <td>Full Day</td>
+            <td>$40</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>Night (4PM-9PM)</td>
+            <td>$25</td>
+            <td>$20</td>
+          </tr>
+          <tr>
+            <td>Combo (Lift + Rental)</td>
+            <td>$65</td>
+            <td>$45</td>
+          </tr>
+        </table>
+      </div>
     </div>
 
     <div class="packages">
@@ -222,48 +246,60 @@
       <h4 class="policy">Please read our Cancellation and Refund Policy</h4>
     </div>
 
-    <div style="width: 100%;">
-      <img class="resortPhoto" style="width: 100%;" src="Images/Resort image.png" />
-    </div>
+    <img
+      class="resortPhoto"
+      style="width: 100%;"
+      src="Images/Resort image.png"
+    />
+
     <div class="contact">
-    <h1 >Contact</h1>
-  </div>
-    <div style="display: flex; width: 100%;">
-      <div class="divContact">
-        <form class="contactForm">
-          <label for="fname" class="label" required>Full Name *</label><br />
-          <input type="text" id="fname" name="fname" value="" /><br />
-          <label for="lname" class="label" required>E-mail *</label><br />
-          <input type="text" id="lname" name="lname" value="" /><br /><br />
-          <label for="lname" class="label" required>Coments *</label><br />
-          <textarea
-            class="contactComent"
-            name="message"
-            rows="10"
-            cols="30"
-          ></textarea
-          ><br /><br />
-        </form>
-        <a href="#" class="sendMessage">SEND MESSAGE</a>
+      <h1>Contact</h1>
+    </div>
+
+    <div class="resposive-div">
+      <div class="information">
+        <div class="div-form" style="margin: auto; width: 80%;">
+          <form class="contactForm">
+            <label for="fname" class="label" required>Full Name *</label><br />
+            <input type="text" id="fname" name="fname" value="" /><br />
+            <label for="lname" class="label" required>E-mail *</label><br />
+            <input type="text" id="lname" name="lname" value="" /><br /><br />
+            <label for="lname" class="label" required>Coments *</label><br />
+            <textarea
+              class="contactComent"
+              name="message"
+              rows="10"
+              cols="30"
+            ></textarea
+            ><br /><br />
+          </form>
+          <div style="width: 100%; display: flex; justify-content: center;">
+            <a href="#" class="sendMessage">SEND MESSAGE</a>
+          </div>
+        </div>
       </div>
 
+      <div class="line"></div>
+
       <div class="information">
-        <div class="contactPhone">
-          <h2>Contact by Phone</h2>
-          <p>Tool Free: 1.123.456.7899</p>
-          <p>Local: 1.123.456.7899</p>
-        </div>
-        <hr />
-        <div class="schoolAddress">
-          <h2>School Address</h2>
-          <p>123 Snow Road, Winter City, CA</p>
-          <p class="maps">See on Google Maps</p>
-        </div>
-        <hr />
-        <div class="businessHours">
-          <h2>Business Hours</h2>
-          <p>Monday to Friday: 11AM to 9PM</p>
-          <p>Saturday and Sunday: 9AM to 9PM</p>
+        <div class="div-form" style="margin: auto; width: 80%;">
+          <div class="contactPhone">
+            <h2>Contact by Phone</h2>
+            <p>Tool Free: 1.123.456.7899</p>
+            <p>Local: 1.123.456.7899</p>
+          </div>
+
+          <div class="schoolAddress">
+            <h2>School Address</h2>
+            <p>123 Snow Road, Winter City, CA</p>
+            <p class="maps">See on Google Maps</p>
+          </div>
+
+          <div class="businessHours">
+            <h2>Business Hours</h2>
+            <p>Monday to Friday: 11AM to 9PM</p>
+            <p>Saturday and Sunday: 9AM to 9PM</p>
+          </div>
         </div>
       </div>
     </div>
@@ -281,12 +317,20 @@
       <img src="./Images/Logo Twitter.png" style="width: 50px; height: 50px;" />
     </div>
 
-    <div class="footer">
-      <footer>
-        <p>2020 Snow School - Created for UI Portfolio only.</p>
-      </footer>
-    </div>
+    <footer>
+      <p>2020 Snow School - Created for UI Portfolio only.</p>
+    </footer>
     <script src="simple-anime.js"></script>
     <script src="script.js"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

@@ -1,8 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 
-margin: 0;
-padding: 0;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
+.topnav {
+  display: none;
+}
 
 /* SEASON MENU */
 .season {
@@ -26,7 +36,6 @@ padding: 0;
   display: block;
   text-decoration: none;
   text-align: center;
-  font-family: "Nunito", sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #1d2023;
@@ -164,9 +173,6 @@ textarea {
 }
 
 .services p {
-  font-family: "Nunito", sans-serif;
-  margin-left: 60px;
-  width: 650px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
@@ -175,11 +181,15 @@ textarea {
   color: #1d2023;
 }
 
+.lessons,
+.services {
+  margin: auto;
+  max-width: 90%;
+}
+
 .lessons h2 {
   font-family: "Nunito", sans-serif;
-  margin-left: 60px;
   margin-right: 10px;
-  width: 650px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
@@ -197,8 +207,7 @@ textarea {
 }
 .lift h2 {
   font-family: "Nunito", sans-serif;
-  margin-left: 60px;
-  width: 800px;
+  padding-left: 60px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
@@ -337,24 +346,22 @@ textarea {
 }
 
 .contactForm input {
-  width: 480px;
+  width: 100%;
   height: 67px;
   border: none;
   background: #eff4f9;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  margin-left: 60px;
   margin-bottom: 15px;
 }
 
 .contactComent {
-  width: 480px;
+  width: 100%;
   height: 200px;
   border: none;
   background: #eff4f9;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  margin-left: 60px;
   margin-bottom: 15px;
 }
 
@@ -366,10 +373,8 @@ textarea {
   color: #ffffff;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
-  width: 480px;
   margin: auto;
   margin-bottom: 30px;
-  margin-left: 60px;
 }
 
 .sendMessage:hover {
@@ -379,7 +384,6 @@ textarea {
 .label {
   font-size: 18px;
   font-family: "Nunito", sans-serif;
-  margin-left: 60px;
   color: #1d2023;
   margin-bottom: 5px;
 }
@@ -395,11 +399,14 @@ hr {
   width: 700px;
 }
 
+.resposive-div {
+  display: flex;
+  width: 100%;
+}
+
 .information {
   width: 50%;
-  margin-top: 30px;
   margin-bottom: 60px;
-  margin-right: 60px;
 }
 
 .information h2 {
@@ -435,13 +442,13 @@ hr {
 }
 
 /* FOOTER */
-.footer {
+footer {
   width: 100%;
   height: 60px;
   background-color: #35caeb;
 }
 
-.footer p {
+footer p {
   font-size: 14px;
   font-family: "Nunito", sans-serif;
   color: #ffffff;
@@ -453,60 +460,20 @@ hr {
 /* MOBILE MENU */
 
 @media only screen and (max-width: 787px) {
+  .resposive-div {
+    flex-direction: column;
+  }
+
+  .information {
+    width: 100%;
+    margin-bottom: 10px;
+  }
   .season {
     display: none;
   }
-  .season ul {
-    display: none;
-  }
-
-  .season li {
-    display: none;
-  }
-
-  .season li a {
-    display: none;
-  }
-
-  .season .menu ul {
-    display: none;
-  }
-
-  .season h3 {
-    display: none;
-  }
-  .menu li {
-    text-align: center;
-    list-style-type: none;
-    margin: 0 auto;
-  }
-
-  .menu img {
-    display: flex;
-    margin: 0 auto;
-  }
-
-  .menu li a {
-    display: block;
-    border: 4 px solid white;
-    width: 140px;
-    text-decoration: none;
-    float: left;
-    font-family: "Nunito", sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 20px;
-    color: #ffffff;
-    padding: 1px;
-    position: relative;
-  }
 
   .menu {
-    width: 100%;
-    height: 60px;
-    left: 0px;
-    top: 40px;
-    background: #35caeb;
+    display: none;
   }
 
   .header h1 {
@@ -584,17 +551,6 @@ hr {
     color: #1d2023;
   }
 
-  .lessons h2 {
-    font-family: "Nunito", sans-serif;
-    margin-left: 20px;
-    width: 100%;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 18px;
-    color: #35caeb;
-  }
-
   .lessons p {
     font-family: "Nunito", sans-serif;
     font-size: 16px;
@@ -602,17 +558,6 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
     width: 300px;
-  }
-  .lift h2 {
-    font-family: "Nunito", sans-serif;
-    margin-left: 20px;
-    width: 100%;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 18px;
-    color: #35caeb;
-    margin-top: 20px;
   }
 
   .ticketList {
@@ -748,46 +693,6 @@ hr {
     width: 100%;
   }
 
-  .contactForm input {
-    width: 440px;
-    height: 67px;
-    border: none;
-    background: #eff4f9;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 15px;
-  }
-  .contactComent {
-    width: 440px;
-    height: 200px;
-    border: none;
-    background: #eff4f9;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-  }
-
-  .sendMessage {
-    padding: 5px 40px;
-    border-radius: 5px;
-    text-decoration: none;
-    background-color: #35caeb;
-    color: #ffffff;
-    font-size: 18px;
-    font-family: "Nunito", sans-serif;
-    width: 440px;
-    margin: auto;
-    margin-bottom: 30px;
-    margin-left: 20px;
-  }
-
-  .sendMessage:hover {
-    background-color: #1169ee;
-    color: white;
-  }
   .label {
     font-size: 18px;
     font-family: "Nunito", sans-serif;
@@ -800,22 +705,6 @@ hr {
     width: 100%;
     height: 500px;
     margin-bottom: 20px;
-  }
-
-  hr {
-    display: none;
-  }
-
-  .information {
-    display: none;
-  }
-
-  .information h2 {
-    display: none;
-  }
-
-  .information p {
-    display: none;
   }
 
   /* SOCIAL MEDIA */
@@ -836,20 +725,50 @@ hr {
     line-height: 22px;
   }
 
-  /* FOOTER */
-  .footer {
-    width: 100%;
-    height: 30px;
-    background-color: #35caeb;
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
   }
 
-  .footer p {
-    font-size: 14px;
-    font-family: "Nunito", sans-serif;
-    color: #ffffff;
-    padding: 10px 15px;
-    text-align: center;
-    margin: auto;
+  .topnav {
+    overflow: hidden;
+    background-color: #35caeb;
+    position: relative;
+    display: block;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: #35caeb;
+    display: block;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+  }
+
+  .topnav a:hover {
+    background-color: #78dbf1;
+    color: black;
+  }
+
+  .active {
+    background-color: #4caf50;
+    color: white;
   }
 }
 
