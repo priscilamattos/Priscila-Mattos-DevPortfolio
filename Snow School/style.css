@@ -18,7 +18,8 @@ html {
 .season {
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  height: 30px;
+  padding-top: 5px;
 }
 
 .season ul {
@@ -30,6 +31,7 @@ html {
 
 .season li {
   float: right;
+  align-self: center;
 }
 
 .season li a {
@@ -39,7 +41,7 @@ html {
   font-size: 18px;
   font-weight: bold;
   color: #1d2023;
-  padding: 18px;
+  padding: 5px;
 }
 
 .season .menu ul {
@@ -52,8 +54,10 @@ html {
 .season h3 {
   font-weight: bold;
   font-family: "Nunito", sans-serif;
-  color: #333333;
+  color: #1169ee;
   margin-left: 60px;
+  font-size: 24px;
+  padding: 5px;
 }
 
 /* NAV MENU */
@@ -74,7 +78,7 @@ html {
   text-decoration: none;
   text-align: center;
   font-family: "Nunito", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   color: #ffffff;
   padding: 18px;
@@ -165,20 +169,21 @@ textarea {
   font-weight: normal;
   font-size: 64px;
   line-height: 72px;
-  margin-left: 60px;
+
   margin-bottom: 30px;
   margin-right: 10px;
   width: 650px;
   color: #35caeb;
 }
 
-.services p {
-  font-size: 24px;
+.services-p {
+  font-size: 20px;
   font-style: normal;
   font-weight: normal;
-  line-height: 33px;
+  line-height: 30px;
   margin-right: 10px;
   color: #1d2023;
+  max-width: 650px;
 }
 
 .lessons,
@@ -190,24 +195,23 @@ textarea {
 .lessons h2 {
   font-family: "Nunito", sans-serif;
   margin-right: 10px;
-  font-size: 24px;
+  font-size: 22px;
+  margin-left: 0px;
   font-style: normal;
   font-weight: normal;
   line-height: 33px;
   color: #35caeb;
 }
 
-.lessons p {
+.lessons-p {
   font-family: "Nunito", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #1d2023;
-  margin-left: 120px;
   margin-right: 10px;
   width: 650px;
 }
 .lift h2 {
   font-family: "Nunito", sans-serif;
-  padding-left: 60px;
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
@@ -218,17 +222,19 @@ textarea {
 
 .ticketList {
   width: 540px;
-  margin-left: 120px;
   column-width: 100px;
   text-align: center;
   background-color: rgb(245, 241, 237);
-  border-radius: 2px;
+  border-radius: 5px;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
+  margin-bottom: 100px;
+  box-shadow: darkgray (0, 0, 2, 2);
 }
 
 .ticketList th {
   font-weight: bold;
+  text-align: center;
 }
 .familyPhoto {
   width: 561px;
@@ -333,6 +339,11 @@ textarea {
 }
 
 /* CONTACT */
+.map img {
+  max-width: 700px;
+  height: 200px;
+  display: flex;
+}
 .contact h1 {
   font-family: "Alice", serif;
   font-style: normal;
