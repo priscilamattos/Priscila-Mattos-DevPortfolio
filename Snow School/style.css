@@ -18,8 +18,9 @@ html {
 .season {
   display: flex;
   justify-content: space-between;
-  height: 30px;
-  padding-top: 5px;
+  height: 25px;
+  padding: auto;
+  margin-left: 60px;
 }
 
 .season ul {
@@ -40,24 +41,23 @@ html {
   text-align: center;
   font-size: 18px;
   font-weight: bold;
-  color: #1d2023;
+  color: #1169ee;
   padding: 5px;
 }
 
-.season .menu ul {
+.season menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-.season h3 {
+.sale a {
   font-weight: bold;
   font-family: "Nunito", sans-serif;
   color: #1169ee;
   margin-left: 60px;
   font-size: 24px;
-  padding: 5px;
 }
 
 /* NAV MENU */
@@ -228,7 +228,7 @@ textarea {
   border-radius: 5px;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   box-shadow: darkgray (0, 0, 2, 2);
 }
 
