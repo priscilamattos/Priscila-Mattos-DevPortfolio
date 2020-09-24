@@ -1,3 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+}
+
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -14,6 +23,13 @@ p {
   margin-right: 50px;
 }
 
+@media (max-width: 748px) {
+  p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
 li {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -21,6 +37,11 @@ li {
   line-height: 19.2px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+img {
+  max-width: 90%;
+  margin: 3%;
 }
 
 .logo {
@@ -40,17 +61,24 @@ li {
   line-height: 5px;
 }
 
+@media (max-width: 748px) {
+  .questions {
+    margin-left: 0;
+  }
+}
+
 .disclaimer {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50p;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 5%;
 }
 
 .priscila {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
+}
+
+.priscila span {
+  white-space: nowrap;
 }
 
 .participants {
@@ -59,6 +87,14 @@ li {
   margin-left: auto;
   margin-bottom: 50px;
   margin-top: 50px;
+  object-fit: contain;
+  height: auto;
+}
+
+@media (max-width: 748px) {
+  .participants {
+    margin: 0 30px;
+  }
 }
 
 .empathy {
@@ -75,6 +111,14 @@ li {
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+@media (max-width: 748px) {
+  .empathy,
+  .quotes {
+    object-fit: contain;
+    height: auto;
+    margin: 30px auto;
+  }
 }
 
 .artboard {
@@ -104,6 +148,32 @@ li {
 .accessibility {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.accessibility img {
+  display: block;
+  object-fit: contain;
+  height: auto;
+  margin: 30px auto;
+}
+
+.issues-img {
+  display: flex;
+}
+
+.issue-details {
+  display: flex;
+  max-width: 650px;
+  margin: 5px auto;
+}
+.issue-details img {
+  object-fit: contain;
+}
+
+@media (max-width: 748px) {
+  .issue-details {
+    display: contents;
+  }
 }
 
 .introduction {
