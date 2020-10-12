@@ -1129,6 +1129,7 @@ h6 {
   transform: translateY(-20px);
   opacity: 0;
   transition: all 0.8s;
+  text-align: center;
 }
 
 .item_content:hover .item_title h6 {
