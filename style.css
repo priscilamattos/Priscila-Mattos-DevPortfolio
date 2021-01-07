@@ -48,21 +48,21 @@ li {
 /* HEADINGS */
 h1 {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 150px;
   display: inline;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 36px;
 }
 
 h3 {
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
@@ -70,20 +70,20 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #000;
   font-weight: 500;
 }
 
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #000;
   font-weight: 500;
@@ -111,7 +111,7 @@ h6 {
 
 .loader:before,
 .loader:after {
-  content: "";
+  content: '';
   border: 1em solid #2c3742;
   border-radius: 50%;
   width: inherit;
@@ -230,7 +230,7 @@ h6 {
 }
 
 .Sent-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 25px;
 }
 
@@ -296,12 +296,12 @@ h6 {
 }
 
 .btn_nav_lines::before {
-  content: "";
+  content: '';
   top: -8px;
 }
 
 .btn_nav_lines::after {
-  content: "";
+  content: '';
   top: 8px;
 }
 
@@ -348,7 +348,7 @@ h6 {
 
 .mob_nav .nav a {
   font-size: 18px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-decoration: none;
   color: black;
@@ -394,7 +394,7 @@ h6 {
 .menu .nav a {
   text-transform: uppercase;
   font-size: 16px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   text-decoration: none;
   color: black;
@@ -407,7 +407,7 @@ h6 {
 }
 
 .menu .nav a::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 0;
@@ -477,7 +477,7 @@ h6 {
 .header {
   width: 100%;
   height: 100vh;
-  background-image: url("./images/bg/Site_Background.png");
+  background-image: url('./images/bg/Site_Background.png');
   background-size: cover;
   display: flex;
   background-attachment: fixed;
@@ -486,8 +486,8 @@ h6 {
 
 @media only screen and (max-width: 959px) {
   header:before {
-    content: "";
-    background-image: url("./images/bg/Site_Background.png");
+    content: '';
+    background-image: url('./images/bg/Site_Background.png');
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -511,12 +511,12 @@ h6 {
 }
 
 .header__content::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 95%;
   height: 98%;
-  background-image: url("images/002.png");
+  background-image: url('images/002.png');
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom right;
@@ -536,7 +536,7 @@ h6 {
 .header__title h1::after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   max-width: 350px;
   width: 100%;
   height: 12px;
@@ -622,7 +622,7 @@ h6 {
 }
 
 .about__title h3::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 185px;
@@ -635,7 +635,7 @@ h6 {
 
 .about__title span {
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   padding-top: 40px;
 }
@@ -672,7 +672,7 @@ h6 {
 }
 
 .paragraph__aboutMe {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #333333;
   padding-top: 20px;
@@ -685,7 +685,7 @@ h6 {
 
 .more_info_aboutMe {
   display: flex;
-  padding-top: 70px;
+  padding-top: 25px;
 }
 
 .more_info_aboutMe li {
@@ -695,14 +695,14 @@ h6 {
 
 .more_info_aboutMe li p {
   color: #333333;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 13px;
 }
 
 .more_info_aboutMe li a {
   color: #333333;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 13px;
   text-decoration: none;
@@ -720,7 +720,7 @@ h6 {
 .more_info_aboutMe label {
   display: block;
   width: 113px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 13px;
   color: #000;
@@ -729,6 +729,7 @@ h6 {
 .link_social_aboutMe {
   display: flex;
   padding-top: 15px;
+  padding-left: 50px;
 }
 
 .link_social_aboutMe a {
@@ -759,7 +760,7 @@ h6 {
   padding: 15px 40px;
   border-radius: 3px;
   min-width: 182.77px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
@@ -776,7 +777,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: #2c3742;
-  content: "";
+  content: '';
   top: 0;
   left: -100%;
   z-index: 1;
@@ -811,7 +812,7 @@ h6 {
 }
 
 .myStoryAboutMe .myStory p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #333333;
   line-height: 24px;
@@ -830,7 +831,7 @@ h6 {
 }
 
 .myStoryAboutMe .mySkills label {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #333333;
   padding-bottom: 5px;
@@ -921,11 +922,11 @@ h6 {
   font-size: 16px;
   color: #000;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .service-subTitle p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   color: #444444;
   font-weight: 400;
@@ -936,7 +937,7 @@ h6 {
 /* counter__content */
 .counter__content {
   width: 100%;
-  background-image: url("./images/bg/Site_Background.png");
+  background-image: url('./images/bg/Site_Background.png');
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -944,7 +945,7 @@ h6 {
 }
 
 .counter__content::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   top: 0;
@@ -981,7 +982,7 @@ h6 {
 }
 
 .counter .bl p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
@@ -1009,7 +1010,7 @@ h6 {
   margin-right: 10px;
   margin-left: 10px;
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   position: relative;
@@ -1070,7 +1071,7 @@ h6 {
 .item-overlay::before {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -1083,7 +1084,7 @@ h6 {
 .item-overlay::after {
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   width: 50%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -1123,7 +1124,7 @@ h6 {
   font-size: 16px;
   color: #000;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   transform: translateY(-20px);
@@ -1173,7 +1174,7 @@ h6 {
 /* Feedback */
 .feedback_content {
   width: 100%;
-  background-image: url("./images/bg/Site_Background.png");
+  background-image: url('./images/bg/Site_Background.png');
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -1181,7 +1182,7 @@ h6 {
 }
 
 .feedback_content::before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   top: 0;
@@ -1212,12 +1213,12 @@ h6 {
 }
 
 .feedback_container .name {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 15px;
 }
 
 .feedback_container .comment {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding-top: 25px;
   font-weight: 400;
@@ -1254,7 +1255,7 @@ h6 {
 }
 
 .info-contact p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #000;
@@ -1262,7 +1263,7 @@ h6 {
 }
 
 .info-contact a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #000;
@@ -1304,7 +1305,7 @@ h6 {
 
 .contact-title span {
   font-size: 22px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 
@@ -1330,14 +1331,14 @@ h6 {
   border-bottom: 1px solid #000;
   outline: none;
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 10px 0;
 }
 
 .contact-form form input::placeholder {
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -1357,14 +1358,14 @@ h6 {
   border-bottom: 1px solid #000;
   outline: none;
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   padding: 10px 0;
 }
 
 .contact-form form textarea::placeholder {
   color: #000;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
 
@@ -1379,7 +1380,7 @@ h6 {
   border-radius: 3px;
   border: none;
   outline: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 14px;
   display: block;
@@ -1395,7 +1396,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: #2c3742;
-  content: "";
+  content: '';
   top: 0;
   left: -100%;
   z-index: 1;
@@ -1417,7 +1418,7 @@ h6 {
   display: none;
   padding: 5px 10px;
   margin-top: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border-radius: 2px;
 }
 /* contact_content End */
@@ -1430,7 +1431,7 @@ h6 {
   opacity: 75%;
   text-align: center;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 /* footer End */
 
