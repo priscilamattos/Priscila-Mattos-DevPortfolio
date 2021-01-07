@@ -1,645 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Priscila Mattos - UX | UI Designer</title>
-    <!-- favicon -->
-    <link rel="icon" href="images/PriscilaMattos.png" />
-    <!-- main css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- OwlCarousel Css -->
-    <link rel="stylesheet" href="css/OwlCarousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/a60e455f2f.js"></script>
-    <!-- popup css -->
-    <link rel="stylesheet" href="css/magnific-popup.min.css" />
 
-    <!-- PDF OBJ library 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Priscila Mattos - UX | UI Designer</title>
+  <!-- favicon -->
+  <link rel="icon" href="images/PriscilaMattos.png" />
+  <!-- main css -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet" />
+  <!-- OwlCarousel Css -->
+  <link rel="stylesheet" href="css/OwlCarousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/a60e455f2f.js"></script>
+  <!-- popup css -->
+  <link rel="stylesheet" href="css/magnific-popup.min.css" />
+
+  <!-- PDF OBJ library 
     <script src="/js/pdfobject.min.js"></script>-->
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-172846582-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172846582-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "UA-172846582-1");
-    </script>
-  </head>
-  <body>
-    <!-- PRELOADER -->
-    <div class="loader_bg">
-      <div class="loader"></div>
-    </div>
-    <!-- /PRELOADER -->
+    gtag("config", "UA-172846582-1");
+  </script>
+</head>
 
-    <!-- SCROLL TOP BUTTON -->
-    <div class="scrollTop">
-      <a href="#Home">
-        <i class="fas fa-angle-up"></i>
-      </a>
-    </div>
-    <!-- /SCROLL TOP BUTTON -->
+<body>
+  <!-- PRELOADER -->
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
+  <!-- /PRELOADER -->
 
-    <!-- CONTACT POPUP -->
-    <div id="MessageSent" class="MessageSent">
-      <button id="SentClose"><i class="fas fa-times"></i></button>
-      <div class="Sent_inner">
-        <div class="Sent-icon">
-          <i class="far fa-envelope"></i>
-        </div>
-        <div class="Sent-title">
-          <span>Your message was sent successfully</span>
-          <p>I will respond to you soon, Thank you!</p>
-        </div>
+  <!-- SCROLL TOP BUTTON -->
+  <div class="scrollTop">
+    <a href="#Home">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+  <!-- /SCROLL TOP BUTTON -->
+
+  <!-- CONTACT POPUP -->
+  <div id="MessageSent" class="MessageSent">
+    <button id="SentClose"><i class="fas fa-times"></i></button>
+    <div class="Sent_inner">
+      <div class="Sent-icon">
+        <i class="far fa-envelope"></i>
+      </div>
+      <div class="Sent-title">
+        <span>Your message was sent successfully</span>
+        <p>I will respond to you soon, Thank you!</p>
       </div>
     </div>
-    <!-- /CONTACT POPUP -->
+  </div>
+  <!-- /CONTACT POPUP -->
 
-    <!-- MOBILE MENU -->
-    <div class="mobile_menu">
-      <div class="mob_menu_container">
-        <div class="mob_menu_logo">
-          <a href="#Home">
-            <!-- <img src="images\PriscilaMattos.png" alt="Priscila Logo"> -->
-          </a>
-        </div>
-        <div class="burger_nav">
-          <div id="btn_nav" class="btn_nav">
-            <span class="btn_nav_lines"></span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="mob_nav" class="mob_nav">
-      <div class="nav">
-        <!-- Here is mobile menu -->
-        <div class="mobMenu">
-          <a href="#Home">Home</a>
-          <a href="#about__content">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>
-      <div class="social">
-        <!-- SOCIAL MEDIA -->
-        <a
-          title="linkedin"
-          href="https://www.linkedin.com/in/priscila-mattos-50721944/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a title="instagram" href="https://www.instagram.com/priiica/"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-      </div>
-    </div>
-    <!-- /MOBILE MENU -->
-
-    <!-- CONTENT -->
-    <!-- LEFTPART -->
-    <div class="menu" id="Menu">
-      <div class="logo" id="logo">
-        <a href="index.html">
-          <img src="images/Icons/PriscilaMattos.png" alt="logo" />
-          <!-- logo -->
+  <!-- MOBILE MENU -->
+  <div class="mobile_menu">
+    <div class="mob_menu_container">
+      <div class="mob_menu_logo">
+        <a href="#Home">
+          <!-- <img src="images\PriscilaMattos.png" alt="Priscila Logo"> -->
         </a>
       </div>
-      <div class="nav" id="nav">
-        <ul>
-          <!-- MENU -->
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#about__content">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div class="social" id="social">
-        <!-- Social Media -->
-        <a
-          title="linkedin"
-          href="https://www.linkedin.com/in/priscila-mattos-50721944/"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-        <a title="instagram" href="https://www.instagram.com/priiica/"
-          ><i class="fab fa-instagram"></i
-        ></a>
-        <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-      </div>
-      <div class="close__menu" id="close_menu">
-        <i class="fas fa-chevron-left"></i>
+      <div class="burger_nav">
+        <div id="btn_nav" class="btn_nav">
+          <span class="btn_nav_lines"></span>
+        </div>
       </div>
     </div>
-    <!-- /LEFTPART -->
+  </div>
+  <div id="mob_nav" class="mob_nav">
+    <div class="nav">
+      <!-- Here is mobile menu -->
+      <div class="mobMenu">
+        <a href="#Home">Home</a>
+        <a href="#about__content">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="social">
+      <!-- SOCIAL MEDIA -->
+      <a title="linkedin" href="https://www.linkedin.com/in/priscila-mattos-50721944/"><i class="fab fa-linkedin-in"></i></a>
+      <a title="instagram" href="https://www.instagram.com/priiica/"><i class="fab fa-instagram"></i></a>
+      <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+    </div>
+  </div>
+  <!-- /MOBILE MENU -->
 
-    <!-- RIGHTPART -->
-    <div class="content" id="content">
-      <!-- HEADER -->
-      <header class="header" id="Home">
-        <div class="header__content" id="header__content">
-          <div class="header__title">
-            <h1>Portfolio</h1>
-            <h2>Hello I'm a <span class="typing"></span></h2>
-          </div>
-          <div class="Down__btn">
-            <a href="#about__content">
-              <i class="fas fa-angle-double-down"></i>
-            </a>
-          </div>
+  <!-- CONTENT -->
+  <!-- LEFTPART -->
+  <div class="menu" id="Menu">
+    <div class="logo" id="logo">
+      <a href="index.html">
+        <img src="images/Icons/PriscilaMattos.png" alt="logo" />
+        <!-- logo -->
+      </a>
+    </div>
+    <div class="nav" id="nav">
+      <ul>
+        <!-- MENU -->
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about__content">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="social" id="social">
+      <!-- Social Media -->
+      <a title="linkedin" href="https://www.linkedin.com/in/priscila-mattos-50721944/"><i class="fab fa-linkedin-in"></i></a>
+      <a title="instagram" href="https://www.instagram.com/priiica/"><i class="fab fa-instagram"></i></a>
+      <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+    </div>
+    <div class="close__menu" id="close_menu">
+      <i class="fas fa-chevron-left"></i>
+    </div>
+  </div>
+  <!-- /LEFTPART -->
+
+  <!-- RIGHTPART -->
+  <div class="content" id="content">
+    <!-- HEADER -->
+    <header class="header" id="Home">
+      <div class="header__content" id="header__content">
+        <div class="header__title">
+          <h1>Portfolio</h1>
+          <h2>Hello I'm a <span class="typing"></span></h2>
         </div>
-      </header>
-      <!-- /HEADER -->
+        <div class="Down__btn">
+          <a href="#about__content">
+            <i class="fas fa-angle-double-down"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- /HEADER -->
 
-      <section class="Section">
-        <!-- ABOUT -->
-        <div class="about__content" id="about__content">
-          <div class="about__title">
-            <h3>About me</h3>
-            <span>Who I am and where I came from</span>
+    <section class="Section">
+      <!-- ABOUT -->
+      <div class="about__content" id="about__content">
+        <div class="about__title">
+          <h3>About me</h3>
+          <span>Who I am and where I came from</span>
+        </div>
+        <div class="info__about__me">
+          <div class="info_photo">
+            <img class="info_photo_item" src="images/Icons/profile.png" alt="MyPhoto" />
+            <!-- Photo -->
           </div>
-          <div class="info__about__me">
-            <div class="info_photo">
-              <img
-                class="info_photo_item"
-                src="images/Icons/profile.png"
-                alt="MyPhoto"
-              />
-              <!-- Photo -->
+          <div class="text__about__me">
+            <div class="subTitle__aboutMe">
+              <h6>
+                I'm Priscila Mattos <br />and I'm a
+                <span class="about_typing"></span>
+              </h6>
+              <!-- Name -->
             </div>
-            <div class="text__about__me">
-              <div class="subTitle__aboutMe">
-                <h6>
-                  I'm Priscila Mattos <br />and I'm a
-                  <span class="about_typing"></span>
-                </h6>
-                <!-- Name -->
-              </div>
-              <div class="paragraph__aboutMe">
-                <!-- Info -->
-                <p>
-                  Hello! My name is <span>Priscila Mattos</span> and I am UX &
-                  UI Designer, currently based in Halifax, Nova Scotia. I
-                  decided to become a Designer motivated by my passion for
-                  technology, focusing my creativity and empathy to develop
-                  solutions to everyday problems. I am excited to join your team
-                  and put into practice the techniques I learned to satisfy
-                  user's needs.
-                </p>
-              </div>
-              <div class="more_info_aboutMe">
-                <ul>
-                  <li>
-                    <label>Birthday:</label>
-                    <p>12.06.86</p>
-                    <!-- Birthday-->
-                  </li>
-                  <li>
-                    <label>City:</label>
-                    <p>Halifax, NS</p>
-                    <!-- City-->
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <label>Mail:</label>
-                    <a href="mailto:priscilamattosux@gmail.com"
-                      >priscilamattosux@gmail.com</a
-                    >
-                    <!--Email-->
-                  </li>
-                  <li>
-                    <label>Phone:</label>
-                    <a href="tel:+19029892228">+1 902 989 2228</a>
-                    <!--Phone-->
-                  </li>
-                </ul>
-              </div>
-              <div class="link_social_aboutMe">
-                <!-- Social Media -->
-                <a
-                  title="linkedin"
-                  href="https://www.linkedin.com/in/priscila-mattos-50721944/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a title="instagram" href="https://www.instagram.com/priiica/"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-              </div>
-              <div class="btn__aboutMe">
-                <a download href="./pdf/resumepriscilamattos.pdf"
-                  ><span>Resume</span></a
-                >
-                <a href="#contact"><span>Send Message</span></a>
-              </div>
-            </div>
-          </div>
-          <div class="myStoryAboutMe">
-            <div class="myStory">
-              <h5>My Story</h5>
+            <div class="paragraph__aboutMe">
               <!-- Info -->
               <p>
-                I worked more than 10 years in the Business Administration
-                field. Recently, I completed the UX Design course at Juno
-                College of Technology (Toronto), and the UI Design course at
-                UILab (Brazil). In my free time, I am studying to improve my
-                skills in HTML, CSS and JavaScript.
+                Hello! My name is <span>Priscila Mattos</span> and I am UX &
+                UI Designer, currently based in Halifax, Nova Scotia. I
+                decided to become a Designer motivated by my passion for
+                technology, focusing my creativity and empathy to develop
+                solutions to everyday problems. I am excited to join your team
+                and put into practice the techniques I learned to satisfy
+                user's needs.
               </p>
             </div>
-            <div class="mySkills" id="mySkills">
-              <h5>My Skills</h5>
-              <!-- Skills-->
-              <div class="skill-title">
-                <label>Problem Solving</label>
-                <label data-num="85" class="skill-bar-percent">92</label>
-                <label>%</label>
-              </div>
-              <div class="skillbar" data-percent="85%">
-                <div class="skill-bar one"></div>
-              </div>
+            <div class="more_info_aboutMe">
+              <ul>
+                <!-- <li>
+                    <label>Birthday:</label>
+                    <p>12.06</p>
+                    
+                  </li>Birthday-->
+                <li>
+                  <label>City:</label>
+                  <p>Halifax, NS</p>
+                  <!-- City-->
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <label>Mail:</label>
+                  <a href="mailto:priscilamattosux@gmail.com">priscilamattosux@gmail.com</a>
+                  <!--Email-->
+                </li>
+                <li>
+                  <label>Phone:</label>
+                  <a href="tel:+19029892228">+1 902 989 2228</a>
+                  <!--Phone-->
+                </li>
+              </ul>
+            </div>
+            <div class="link_social_aboutMe">
+              <!-- Social Media -->
+              <a title="linkedin" href="https://www.linkedin.com/in/priscila-mattos-50721944/"><i class="fab fa-linkedin-in"></i></a>
+              <a title="instagram" href="https://www.instagram.com/priiica/"><i class="fab fa-instagram"></i></a>
+              <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <div class="btn__aboutMe">
+              <a download href="./pdf/resumepriscilamattos.pdf"><span>Resume</span></a>
+              <a href="#contact"><span>Send Message</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="myStoryAboutMe">
+          <div class="myStory">
+            <h5>My Story</h5>
+            <!-- Info -->
+            <p>
+              I worked more than 10 years in the Business Administration
+              field. Recently, I completed the UX Design course at Juno
+              College of Technology (Toronto), and the UI Design course at
+              UILab (Brazil). In my free time, I am studying to improve my
+              skills in HTML, CSS and JavaScript.
+            </p>
+          </div>
+          <div class="mySkills" id="mySkills">
+            <h5>My Skills</h5>
+            <!-- Skills-->
+            <div class="skill-title">
+              <label>Problem Solving</label>
+              <label data-num="85" class="skill-bar-percent">92</label>
+              <label>%</label>
+            </div>
+            <div class="skillbar" data-percent="85%">
+              <div class="skill-bar one"></div>
+            </div>
 
-              <div class="skill-title">
-                <label>Creativity</label>
-                <label data-num="90" class="skill-bar-percent">90</label>
-                <label>%</label>
-              </div>
-              <div class="skillbar" data-percent="90%">
-                <div class="skill-bar two"></div>
-              </div>
+            <div class="skill-title">
+              <label>Creativity</label>
+              <label data-num="90" class="skill-bar-percent">90</label>
+              <label>%</label>
+            </div>
+            <div class="skillbar" data-percent="90%">
+              <div class="skill-bar two"></div>
+            </div>
 
-              <div class="skill-title">
-                <label>Empathy</label>
-                <label data-num="85" class="skill-bar-percent">89</label>
-                <label>%</label>
-              </div>
-              <div class="skillbar" data-percent="85%">
-                <div class="skill-bar three"></div>
-              </div>
+            <div class="skill-title">
+              <label>Empathy</label>
+              <label data-num="85" class="skill-bar-percent">89</label>
+              <label>%</label>
+            </div>
+            <div class="skillbar" data-percent="85%">
+              <div class="skill-bar three"></div>
+            </div>
 
-              <div class="skill-title">
-                <label>Design Thinking</label>
-                <label data-num="90" class="skill-bar-percent">100</label>
-                <label>%</label>
+            <div class="skill-title">
+              <label>Design Thinking</label>
+              <label data-num="90" class="skill-bar-percent">100</label>
+              <label>%</label>
+            </div>
+            <div class="skillbar" data-percent="90%">
+              <div class="skill-bar four"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /ABOUT -->
+
+      <!-- SKILLS -->
+      <div class="services__content">
+        <div class="about__title" id="skills">
+          <h3>Skills</h3>
+          <span>"Practicing and learning by yourself is the only thing that can
+            make you a better designer"</span>
+        </div>
+        <div class="services_items">
+          <div class="service_iner">
+            <div class="service-title">
+              <div class="service_icon">
+                <i class="fas fa-bars"></i>
               </div>
-              <div class="skillbar" data-percent="90%">
-                <div class="skill-bar four"></div>
+              <span>User Experience focused in HCI</span>
+            </div>
+            <div class="service-subTitle">
+              <p>
+                Based in research and developing empirical understandings of
+                users.
+              </p>
+            </div>
+          </div>
+          <div class="service_iner">
+            <div class="service-title">
+              <div class="service_icon">
+                <i class="fas fa-vector-square"></i>
+              </div>
+              <span>PROTOTYPING</span>
+            </div>
+            <div class="service-subTitle">
+              <p>
+                From paper sketches to high-fidelity prototypes: Figma,
+                InVision, Sketch, MarvelApp, Adobe XD... you choose!
+              </p>
+            </div>
+          </div>
+          <div class="service_iner">
+            <div class="service-title">
+              <div class="service_icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <span>USER RESEARCH</span>
+            </div>
+            <div class="service-subTitle">
+              <p>
+                Focused on the understanding of user behaviors, needs, and
+                motivations through observation techniques, task analysis, and
+                other feedback methodologies.
+              </p>
+            </div>
+          </div>
+          <div class="service_iner">
+            <div class="service-title">
+              <div class="service_icon">
+                <i class="far fa-comment-dots"></i>
+              </div>
+              <span>UI</span>
+            </div>
+            <div class="service-subTitle">
+              <p>
+                Color, balance, contrast, typography, and consistency. I also
+                worked redesigning landing pages for small projects, creating
+                a user-friendly interface.
+              </p>
+            </div>
+          </div>
+          <div class="service_iner">
+            <div class="service-title">
+              <div class="service_icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <span>Lean UX</span>
+            </div>
+            <div class="service-subTitle">
+              <p>
+                Concept -> Validate Internally -> Prototype -> Test Externally
+                -> Learn from user behavior -> Iterate
+              </p>
+            </div>
+          </div>
+          <div class="service_iner">
+            <div class="service-title">
+              <div class="service_icon">
+                <i class="fas fa-chart-pie"></i>
+              </div>
+              <span>MOBILE UX</span>
+            </div>
+            <div class="service-subTitle">
+              <p>
+                A User-Centered approach to mobile design, mobile
+                comprehension, and focus on tasks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /SERVICES -->
+
+      <!-- COUNTERBOX -->
+      <div class="counter__content">
+        <div class="counter" id="counter">
+          <div class="bl">
+            <div>
+              <i class="fas fa-users"></i>
+              <h4 data-num="2">2</h4>
+              <p>Clients</p>
+            </div>
+          </div>
+          <div class="bl">
+            <div>
+              <i class="fas fa-thumbs-up"></i>
+              <h4 data-num="2">2</h4>
+              <p>Case Studies</p>
+            </div>
+          </div>
+          <div class="bl">
+            <div>
+              <i class="fas fa-terminal"></i>
+              <h4 data-num="10000">10000</h4>
+              <p>Lines Of Code</p>
+            </div>
+          </div>
+          <div class="bl">
+            <div>
+              <i class="fas fa-trophy"></i>
+              <h4 data-num="17">17</h4>
+              <p>Courses & Cetifications</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /COUNTERBOX -->
+
+      <!-- PORTFOLIO -->
+      <div id="portifolio-2" class="mfp-hide"></div>
+
+      <div class="works__content">
+        <div class="about__title" id="portfolio">
+          <h3>Portfolio</h3>
+          <span>All the things that I have done</span>
+        </div>
+        <div class="work_nav">
+          <ul>
+            <li class="active btn_work" data-filter="all">all</li>
+            <li class="btn_work" data-filter="casestudy">Case Study</li>
+            <li class="btn_work" data-filter="research">Research Report</li>
+            <li class="btn_work" data-filter="prototype">UX/UI</li>
+          </ul>
+        </div>
+        <div class="works__inner">
+          <div class="work_item filter research">
+            <div class="item_content">
+              <img src="images/Icons/Research_icon.png" alt="work" />
+              <div class="item-overlay"></div>
+              <div class="item_title">
+                <h6>Research Report - Atlantic Superstore</h6>
+                <a href="./research.html" target="_black"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work_item filter casestudy">
+            <div class="item_content">
+              <img src="images/Icons/Case_study_icon.png" alt="work" />
+              <div class="item-overlay"></div>
+              <div class="item_title">
+                <h6>Case Study - Atlantic Superstore</h6>
+                <a href="./casestudy.html" target="_black"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="work_item filter prototype">
+            <div class="item_content">
+              <img src="images/Icons/Prototype_icon.png" alt="work" />
+              <div class="item-overlay"></div>
+              <div class="item_title">
+                <h6>Prototype in Figma - Grocery Store</h6>
+                <a href="https://www.figma.com/proto/Dfo7o05w2ffpIEHuYSxTB0/HIGH-FIDELITY-PROJECT?node-id=0%3A2&scaling=min-zoom" target="_blank"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="work_item filter prototype">
+            <div class="item_content">
+              <img src="images/Icons/UI_ICON.png" alt="work" />
+              <div class="item-overlay"></div>
+              <div class="item_title">
+                <h6>UX/UI - WM Renovadora</h6>
+                <a href="https://www.wmrenovadora.com.br" target="_blank"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="work_item filter casestudy prototype">
+            <div class="item_content">
+              <img src="images/Icons/UI_ICON.png" alt="work" />
+              <div class="item-overlay"></div>
+              <div class="item_title">
+                <h6>UI & Front-End - "Student Internship Search Platform"</h6>
+                <a href="https://dreamy-ritchie-e1d965.netlify.app/" target="_blank"><i class="fas fa-search"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="work_item filter prototype">
+            <div class="item_content">
+              <img src="images/Icons/UI_ICON.png" alt="work" />
+              <div class="item-overlay"></div>
+              <div class="item_title">
+                <h6>UI & Front-End - "Snow School"</h6>
+                <a href="Snow School/snowschool.html" target="_blank"><i class="fas fa-search"></i></a>
               </div>
             </div>
           </div>
         </div>
-        <!-- /ABOUT -->
+      </div>
+      <!-- /PORTFOLIO -->
 
-        <!-- SKILLS -->
-        <div class="services__content">
-          <div class="about__title" id="skills">
-            <h3>Skills</h3>
-            <span
-              >"Practicing and learning by yourself is the only thing that can
-              make you a better designer"</span
-            >
+      <!-- CONTACT -->
+      <div class="contact_content">
+        <div class="about__title" id="contact">
+          <h3>Contact</h3>
+          <span>Let's work together!</span>
+        </div>
+        <div class="contact-title">
+          <span>Please leave your message</span>
+        </div>
+        <div class="contact__conte">
+          <div class="info-contact">
+            <p>Halifax,NS</p>
+            <!-- City-->
+            <a href="mailto:priscilamattosux@gmail.com">priscilamattosux@gmail.com</a>
+            <!-- Email-->
+            <a href="tel:+19029892228">+1 902 989 2228</a>
+            <!-- Phone-->
+            <div class="contact-social">
+              <!-- Social Media -->
+              <a title="linkedin" href="https://www.linkedin.com/in/priscila-mattos-50721944/"><i class="fab fa-linkedin-in"></i></a>
+              <a title="instagram" href="https://www.instagram.com/priiica/"><i class="fab fa-instagram"></i></a>
+              <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
           </div>
-          <div class="services_items">
-            <div class="service_iner">
-              <div class="service-title">
-                <div class="service_icon">
-                  <i class="fas fa-bars"></i>
-                </div>
-                <span>User Experience focused in HCI</span>
+          <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true">
+              <div class="form-name">
+                <input type="text" id="name" name="Name" placeholder="Enter your name" autocomplete="name" />
               </div>
-              <div class="service-subTitle">
-                <p>
-                  Based in research and developing empirical understandings of
-                  users.
-                </p>
+              <div class="form-email">
+                <input type="email" id="email" name="Email" placeholder="Enter your email" autocomplete="email" />
               </div>
-            </div>
-            <div class="service_iner">
-              <div class="service-title">
-                <div class="service_icon">
-                  <i class="fas fa-vector-square"></i>
-                </div>
-                <span>PROTOTYPING</span>
+              <div class="form-textarea">
+                <textarea name="text_comment" id="text_comment" placeholder="How can I help you?"></textarea>
               </div>
-              <div class="service-subTitle">
-                <p>
-                  From paper sketches to high-fidelity prototypes: Figma,
-                  InVision, Sketch, MarvelApp, Adobe XD... any tool you choose!
-                </p>
+              <div class="btn__send">
+                <button type="submit" id="btn_submit" name="done">
+                  <span>Send</span>
+                </button>
               </div>
-            </div>
-            <div class="service_iner">
-              <div class="service-title">
-                <div class="service_icon">
-                  <i class="fas fa-code"></i>
-                </div>
-                <span>USER RESEARCH</span>
-              </div>
-              <div class="service-subTitle">
-                <p>
-                  Focused on the understanding of user behaviors, needs, and
-                  motivations through observation techniques, task analysis, and
-                  other feedback methodologies.
-                </p>
-              </div>
-            </div>
-            <div class="service_iner">
-              <div class="service-title">
-                <div class="service_icon">
-                  <i class="far fa-comment-dots"></i>
-                </div>
-                <span>UI</span>
-              </div>
-              <div class="service-subTitle">
-                <p>
-                  Color, balance, contrast, typography, and consistency. I also
-                  worked redesigning landing pages for small projects, creating
-                  a user-friendly interface.
-                </p>
-              </div>
-            </div>
-            <div class="service_iner">
-              <div class="service-title">
-                <div class="service_icon">
-                  <i class="fas fa-search"></i>
-                </div>
-                <span>Lean UX</span>
-              </div>
-              <div class="service-subTitle">
-                <p>
-                  Concept -> Validate Internally -> Prototype -> Test Externally
-                  -> Learn from user behavior -> Iterate
-                </p>
-              </div>
-            </div>
-            <div class="service_iner">
-              <div class="service-title">
-                <div class="service_icon">
-                  <i class="fas fa-chart-pie"></i>
-                </div>
-                <span>MOBILE UX</span>
-              </div>
-              <div class="service-subTitle">
-                <p>
-                  A User-Centered approach to mobile design, mobile
-                  comprehension, and focus on tasks.
-                </p>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
-        <!-- /SERVICES -->
+      </div>
+      <!-- /CONTACT -->
 
-        <!-- COUNTERBOX -->
-        <div class="counter__content">
-          <div class="counter" id="counter">
-            <div class="bl">
-              <div>
-                <i class="fas fa-users"></i>
-                <h4 data-num="2">2</h4>
-                <p>Clients</p>
-              </div>
-            </div>
-            <div class="bl">
-              <div>
-                <i class="fas fa-thumbs-up"></i>
-                <h4 data-num="2">2</h4>
-                <p>Case Studies</p>
-              </div>
-            </div>
-            <div class="bl">
-              <div>
-                <i class="fas fa-terminal"></i>
-                <h4 data-num="3600">3600</h4>
-                <p>Lines Of Code</p>
-              </div>
-            </div>
-            <div class="bl">
-              <div>
-                <i class="fas fa-trophy"></i>
-                <h4 data-num="16">16</h4>
-                <p>Courses & Cetifications</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /COUNTERBOX -->
+      <!-- FOOTER -->
+      <div class="footer">
+        <p>&copy; 2020 Priscila Mattos - All Rights Reserved</p>
+      </div>
+      <!-- /FOOTER -->
+    </section>
+  </div>
+  <!-- /RIGHTPART -->
+  <!-- /CONTENT -->
 
-        <!-- PORTFOLIO -->
-        <div id="portifolio-2" class="mfp-hide"></div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/typing.js"></script>
+  <script src="js/OwlCarousel.min.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    PDFObject.embed(
+      "./pdf/Portifolio_Priscila_Mattos_ResearchReport_UX2020.pdf",
+      "#portifolio-2"
+    );
+  </script>
+  <style>
+    .pdfobject-container {
+      height: 100%;
+      border-top: 40px solid white;
+    }
+  </style>
+</body>
 
-        <div class="works__content">
-          <div class="about__title" id="portfolio">
-            <h3>Portfolio</h3>
-            <span>All the things that I have done</span>
-          </div>
-          <div class="work_nav">
-            <ul>
-              <li class="active btn_work" data-filter="all">all</li>
-              <li class="btn_work" data-filter="casestudy">Case Study</li>
-              <li class="btn_work" data-filter="research">Research Report</li>
-              <li class="btn_work" data-filter="prototype">UX/UI</li>
-            </ul>
-          </div>
-          <div class="works__inner">
-            <div class="work_item filter research">
-              <div class="item_content">
-                <img src="images/Icons/Research_icon.png" alt="work" />
-                <div class="item-overlay"></div>
-                <div class="item_title">
-                  <h6>Research Report - Atlantic Superstore</h6>
-                  <a href="./research.html" target="_black"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work_item filter casestudy">
-              <div class="item_content">
-                <img src="images/Icons/Case_study_icon.png" alt="work" />
-                <div class="item-overlay"></div>
-                <div class="item_title">
-                  <h6>Case Study - Atlantic Superstore</h6>
-                  <a href="./casestudy.html" target="_black"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="work_item filter prototype">
-              <div class="item_content">
-                <img src="images/Icons/Prototype_icon.png" alt="work" />
-                <div class="item-overlay"></div>
-                <div class="item_title">
-                  <h6>Prototype in Figma - Grocery Store</h6>
-                  <a
-                    href="https://www.figma.com/proto/Dfo7o05w2ffpIEHuYSxTB0/HIGH-FIDELITY-PROJECT?node-id=0%3A2&scaling=min-zoom"
-                    target="_blank"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="work_item filter prototype">
-              <div class="item_content">
-                <img src="images/Icons/UI_ICON.png" alt="work" />
-                <div class="item-overlay"></div>
-                <div class="item_title">
-                  <h6>UX/UI - WM Renovadora</h6>
-                  <a href="https://www.wmrenovadora.com.br" target="_blank"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="work_item filter casestudy prototype">
-              <div class="item_content">
-                <img src="images/Icons/UI_ICON.png" alt="work" />
-                <div class="item-overlay"></div>
-                <div class="item_title">
-                  <h6>UI & Front-End - "Student Internship Search Platform"</h6>
-                  <a
-                    href="https://dreamy-ritchie-e1d965.netlify.app/"
-                    target="_blank"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="work_item filter prototype">
-              <div class="item_content">
-                <img src="images/Icons/UI_ICON.png" alt="work" />
-                <div class="item-overlay"></div>
-                <div class="item_title">
-                  <h6>UI & Front-End - "Snow School"</h6>
-                  <a href="Snow School/snowschool.html" target="_blank"
-                    ><i class="fas fa-search"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /PORTFOLIO -->
-
-        <!-- CONTACT -->
-        <div class="contact_content">
-          <div class="about__title" id="contact">
-            <h3>Contact</h3>
-            <span>Let's work together!</span>
-          </div>
-          <div class="contact-title">
-            <span>Please leave your message</span>
-          </div>
-          <div class="contact__conte">
-            <div class="info-contact">
-              <p>Halifax,NS</p>
-              <!-- City-->
-              <a href="mailto:priscilamattosux@gmail.com"
-                >priscilamattosux@gmail.com</a
-              >
-              <!-- Email-->
-              <a href="tel:+19029892228">+1 902 989 2228</a>
-              <!-- Phone-->
-              <div class="contact-social">
-                <!-- Social Media -->
-                <a
-                  title="linkedin"
-                  href="https://www.linkedin.com/in/priscila-mattos-50721944/"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a title="instagram" href="https://www.instagram.com/priiica/"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a title="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
-              </div>
-            </div>
-            <div class="contact-form">
-              <form name="contact" method="POST" data-netlify="true">
-                <div class="form-name">
-                  <input
-                    type="text"
-                    id="name"
-                    name="Name"
-                    placeholder="Enter your name"
-                    autocomplete="name"
-                  />
-                </div>
-                <div class="form-email">
-                  <input
-                    type="email"
-                    id="email"
-                    name="Email"
-                    placeholder="Enter your email"
-                    autocomplete="email"
-                  />
-                </div>
-                <div class="form-textarea">
-                  <textarea
-                    name="text_comment"
-                    id="text_comment"
-                    placeholder="How can I help you?"
-                  ></textarea>
-                </div>
-                <div class="btn__send">
-                  <button type="submit" id="btn_submit" name="done">
-                    <span>Send</span>
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <!-- /CONTACT -->
-
-        <!-- FOOTER -->
-        <div class="footer">
-          <p>&copy; 2020 Priscila Mattos - All Rights Reserved</p>
-        </div>
-        <!-- /FOOTER -->
-      </section>
-    </div>
-    <!-- /RIGHTPART -->
-    <!-- /CONTENT -->
-
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/typed.min.js"></script>
-    <script src="js/typing.js"></script>
-    <script src="js/OwlCarousel.min.js"></script>
-    <script src="js/preloader.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/main.js"></script>
-    <script>
-      PDFObject.embed(
-        "./pdf/Portifolio_Priscila_Mattos_ResearchReport_UX2020.pdf",
-        "#portifolio-2"
-      );
-    </script>
-    <style>
-      .pdfobject-container {
-        height: 100%;
-        border-top: 40px solid white;
-      }
-    </style>
-  </body>
 </html>
