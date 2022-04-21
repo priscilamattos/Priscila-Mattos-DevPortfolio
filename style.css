@@ -48,21 +48,21 @@ li {
 /* HEADINGS */
 h1 {
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 150px;
   display: inline;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 36px;
 }
 
 h3 {
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
@@ -70,20 +70,20 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   color: #000;
   font-weight: 500;
 }
 
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   color: #000;
   font-weight: 500;
@@ -111,7 +111,7 @@ h6 {
 
 .loader:before,
 .loader:after {
-  content: '';
+  content: "";
   border: 1em solid #2c3742;
   border-radius: 50%;
   width: inherit;
@@ -230,7 +230,7 @@ h6 {
 }
 
 .Sent-title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-top: 25px;
 }
 
@@ -253,7 +253,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #2c3742;
+  background-color: var(--main-color);
   z-index: 9999999;
   display: none;
 }
@@ -296,12 +296,12 @@ h6 {
 }
 
 .btn_nav_lines::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 
 .btn_nav_lines::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 
@@ -348,122 +348,12 @@ h6 {
 
 .mob_nav .nav a {
   font-size: 18px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   text-decoration: none;
   color: black;
 }
 /* MOBILE MENU END */
-
-/* LEFTPART MENU */
-.menu {
-  height: 100vh;
-  width: 300px;
-  background-color: #fff;
-  transition: all 0.3s;
-  z-index: 2;
-  position: fixed;
-  left: 0;
-  box-shadow: -12px 0px 4px 14px rgba(0, 0, 0, 0.1);
-}
-
-.menu .logo {
-  width: 100%;
-  padding: 50px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: all 0.3s;
-}
-
-.menu .logo img {
-  max-width: 250px;
-  width: 100%;
-}
-
-.menu .nav {
-  padding: 138px 0 0 40px;
-  transition: all 0.3s;
-}
-
-.menu .nav li {
-  padding-bottom: 20px;
-}
-
-.menu .nav a {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  color: black;
-  transition: all 0.2s;
-  position: relative;
-}
-
-.menu .nav a:hover {
-  color: var(--main-color);
-}
-
-.menu .nav a::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 2px;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 125%;
-  background-color: var(--main-color);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-}
-
-.menu .nav a:hover::before {
-  width: 40px;
-}
-
-.social {
-  position: absolute;
-  display: flex;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: all 0.3s;
-}
-
-.social i {
-  font-size: 16px;
-  color: black;
-}
-
-.social a {
-  text-decoration: none;
-  width: 16px;
-  display: block;
-  margin: 0 5px;
-}
-
-.close__menu {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: #000;
-  top: 0;
-  left: 100%;
-  margin-left: -30px;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.close__menu i {
-  color: #fff;
-  line-height: 30px;
-  font-size: 12px;
-  transition: all 0.3s;
-}
-/* LEFTPART MENU end*/
 
 /* Header Content */
 .content {
@@ -477,7 +367,7 @@ h6 {
 .header {
   width: 100%;
   height: 100vh;
-  background-image: url('./images/bg/Site_Background.png');
+  background-image: url("./images/bg/Site_Background.png");
   background-size: cover;
   display: flex;
   background-attachment: fixed;
@@ -486,8 +376,8 @@ h6 {
 
 @media only screen and (max-width: 959px) {
   header:before {
-    content: '';
-    background-image: url('./images/bg/Site_Background.png');
+    content: "";
+    background-image: url("./images/bg/Site_Background.png");
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -511,12 +401,12 @@ h6 {
 }
 
 .header__content::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 95%;
   height: 98%;
-  background-image: url('images/002.png');
+  background-image: url("images/002.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom right;
@@ -536,7 +426,7 @@ h6 {
 .header__title h1::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   max-width: 350px;
   width: 100%;
   height: 12px;
@@ -621,8 +511,8 @@ h6 {
   position: relative;
 }
 
-.about__title h3::before {
-  content: '';
+.about__title h3::after {
+  content: "";
   position: absolute;
   display: block;
   width: 185px;
@@ -635,7 +525,7 @@ h6 {
 
 .about__title span {
   color: #000;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   padding-top: 40px;
 }
@@ -643,10 +533,9 @@ h6 {
 .info__about__me {
   max-width: 1270px;
   width: 100%;
-  padding: 0 50px;
+  padding: 50px;
   margin: 0 auto;
   display: flex;
-  padding-top: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -672,7 +561,7 @@ h6 {
 }
 
 .paragraph__aboutMe {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #333333;
   padding-top: 20px;
@@ -695,14 +584,14 @@ h6 {
 
 .more_info_aboutMe li p {
   color: #333333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 13px;
 }
 
 .more_info_aboutMe li a {
   color: #333333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 13px;
   text-decoration: none;
@@ -720,7 +609,7 @@ h6 {
 .more_info_aboutMe label {
   display: block;
   width: 113px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 13px;
   color: #000;
@@ -760,7 +649,7 @@ h6 {
   padding: 15px 40px;
   border-radius: 3px;
   min-width: 182.77px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
@@ -777,7 +666,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: #2c3742;
-  content: '';
+  content: "";
   top: 0;
   left: -100%;
   z-index: 1;
@@ -812,7 +701,7 @@ h6 {
 }
 
 .myStoryAboutMe .myStory p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #333333;
   line-height: 24px;
@@ -831,7 +720,7 @@ h6 {
 }
 
 .myStoryAboutMe .mySkills label {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #333333;
   padding-bottom: 5px;
@@ -877,14 +766,14 @@ h6 {
   width: 100%;
   padding: 100px 50px;
   margin: 0 auto;
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .service_iner {
   width: 32%;
-  background-color: #fff;
+  background-color: var(--main-color);
   box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.2);
   padding: 30px;
   transition: all 0.2s;
@@ -895,21 +784,13 @@ h6 {
 .service_iner:hover {
   transform: translateY(-8px);
 }
-
-.service_iner .service_icon {
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 50px;
-  border: 2px solid var(--main-color);
-  margin-right: 20px;
+.service_icon {
+  width: 15%;
 }
-
 .service_iner .service_icon i {
-  width: 20px;
-  margin-top: 50%;
-  transform: translateY(-50%);
-  color: var(--main-color);
+  width: 60px;
+  margin-top: 40%;
+  color: #fff;
 }
 
 .service-title {
@@ -920,15 +801,15 @@ h6 {
 
 .service-title span {
   font-size: 16px;
-  color: #000;
-  font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 
 .service-subTitle p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #444444;
+  color: #fff;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -937,7 +818,7 @@ h6 {
 /* counter__content */
 .counter__content {
   width: 100%;
-  background-image: url('./images/bg/Site_Background.png');
+  background-image: url("./images/bg/Site_Background.png");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -945,7 +826,7 @@ h6 {
 }
 
 .counter__content::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   top: 0;
@@ -982,7 +863,7 @@ h6 {
 }
 
 .counter .bl p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
 }
@@ -991,6 +872,17 @@ h6 {
 /* works__content */
 .works__content {
   width: 100%;
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio {
+  padding-top: 100px;
+}
+
+.portfolio_container {
+  display: flex;
 }
 
 .work_nav {
@@ -1010,7 +902,7 @@ h6 {
   margin-right: 10px;
   margin-left: 10px;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 400;
   position: relative;
@@ -1071,7 +963,7 @@ h6 {
 .item-overlay::before {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   width: 50%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -1084,7 +976,7 @@ h6 {
 .item-overlay::after {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   width: 50%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
@@ -1124,7 +1016,7 @@ h6 {
   font-size: 16px;
   color: #000;
   font-weight: 500;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   transform: translateY(-20px);
@@ -1174,7 +1066,7 @@ h6 {
 /* Feedback */
 .feedback_content {
   width: 100%;
-  background-image: url('./images/bg/Site_Background.png');
+  background-image: url("./images/bg/Site_Background.png");
   background-size: cover;
   background-position: bottom;
   background-attachment: fixed;
@@ -1182,7 +1074,7 @@ h6 {
 }
 
 .feedback_content::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   top: 0;
@@ -1213,12 +1105,12 @@ h6 {
 }
 
 .feedback_container .name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-top: 15px;
 }
 
 .feedback_container .comment {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   padding-top: 25px;
   font-weight: 400;
@@ -1255,7 +1147,7 @@ h6 {
 }
 
 .info-contact p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 18px;
   color: #000;
@@ -1263,7 +1155,7 @@ h6 {
 }
 
 .info-contact a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #000;
@@ -1305,7 +1197,7 @@ h6 {
 
 .contact-title span {
   font-size: 22px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -1331,14 +1223,14 @@ h6 {
   border-bottom: 1px solid #000;
   outline: none;
   color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   padding: 10px 0;
 }
 
 .contact-form form input::placeholder {
   color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -1358,14 +1250,14 @@ h6 {
   border-bottom: 1px solid #000;
   outline: none;
   color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   padding: 10px 0;
 }
 
 .contact-form form textarea::placeholder {
   color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -1380,7 +1272,7 @@ h6 {
   border-radius: 3px;
   border: none;
   outline: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   display: block;
@@ -1396,7 +1288,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: #2c3742;
-  content: '';
+  content: "";
   top: 0;
   left: -100%;
   z-index: 1;
@@ -1418,7 +1310,7 @@ h6 {
   display: none;
   padding: 5px 10px;
   margin-top: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-radius: 2px;
 }
 /* contact_content End */
@@ -1431,7 +1323,7 @@ h6 {
   opacity: 75%;
   text-align: center;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /* footer End */
 
