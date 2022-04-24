@@ -1,19 +1,3 @@
-// MENU
-
-$("#close_menu").on("click", function () {
-  $("#close_menu").toggleClass("close__menu__right");
-  $("#close_menu").toggleClass("color");
-  $("#close_menu i").toggleClass("close__menu__rotate");
-
-  $("#Menu").toggleClass("Menu_remove");
-  $("#header__content").toggleClass("header__content__full");
-  $("#content").toggleClass("header__content__full");
-
-  $("#logo").toggleClass("opacity");
-  $("#nav").toggleClass("opacity");
-  $("#social").toggleClass("opacity");
-});
-
 // MOB MENU
 
 $("#btn_nav").on("click", function () {
@@ -29,17 +13,6 @@ $("#mob_nav .nav a").on("click", function () {
   $("body").toggleClass("overflow_hidden");
 });
 
-$(".open-pdf-popup").magnificPopup({
-  type: "inline",
-  midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-});
-
-$("#pdf").magnificPopup({
-  items: {
-    src: "#portifolio-2",
-    type: "inline",
-  },
-});
 // SCROLL TO LINK
 
 // $(document).ready(function(){
@@ -52,8 +25,6 @@ $("#pdf").magnificPopup({
 //     return false;
 //     });
 // });
-
-//Happy Clients
 
 $(document).ready(function () {
   var show = true;
@@ -86,38 +57,6 @@ $(document).ready(function () {
     }
   });
 });
-
-// Filter Works
-
-$(document).ready(function () {
-  $(".btn_work").on("click", function () {
-    var value = $(this).attr("data-filter");
-    if (value == "all") {
-      $(".filter").show("1000");
-    } else {
-      $(".filter")
-        .not("." + value)
-        .hide("1000");
-      $(".filter")
-        .filter("." + value)
-        .show("1000");
-    }
-  });
-  // Add active class
-  $("ul .btn_work").click(function () {
-    $(this).addClass("active").siblings().removeClass("active");
-  });
-});
-
-// GALLERY POPUP
-$(".open_galery").magnificPopup({
-  delegate: "a",
-  type: "image",
-  gallery: {
-    enabled: true,
-  },
-});
-// GALLERY POPUP END
 
 // SCROLL TOP BUTTON
 $(document).ready(function () {
