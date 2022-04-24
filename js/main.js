@@ -13,32 +13,21 @@ $("#mob_nav .nav a").on("click", function () {
   $("body").toggleClass("overflow_hidden");
 });
 
-// SCROLL TO LINK
-
-// $(document).ready(function(){
-//     $('a[tipo="imagem"]').on("click", function(e){
-//     var anchor = $(this);
-//     $('html, body').stop().animate({
-//     scrollTop: $(anchor.attr('href')).offset().top
-//     }, 1000);
-//     e.preventDefault();
-//     return false;
-//     });
-// });
+// SCROLL DOWN
 
 $(document).ready(function () {
-  var show = true;
+  const show = true;
   $(window).on("scroll", function () {
     if (!show) return false;
 
-    var w_top = $(window).scrollTop();
-    var e_top = $(".services__content .about__title h3").offset().top;
+    const w_top = $(window).scrollTop();
+    const e_top = $(".services__content .about__title h3").offset().top;
 
     if (w_top >= e_top) {
-      var time = 2;
+      const time = 2;
       $("#counter").each(function () {
         $("h4").each(function () {
-          var i = 1,
+          const i = 1,
             num = $(this).data("num"),
             step = (1000 * time) / num,
             that = $(this),
@@ -61,8 +50,8 @@ $(document).ready(function () {
 // SCROLL TOP BUTTON
 $(document).ready(function () {
   $(window).on("scroll", function () {
-    var w_top = $(window).scrollTop();
-    var e_top = $("#about__content").offset().top;
+    const w_top = $(window).scrollTop();
+    const e_top = $("#about__content").offset().top;
     if (w_top >= e_top) {
       $(".scrollTop").css("opacity", "1");
     }
